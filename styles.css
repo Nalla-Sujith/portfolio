@@ -29,12 +29,16 @@ color:white;
 .link-primary
 {
   background-color:var(--primary-color);
-  border-radius: 0.5rem;
+  border-radius: 2rem;
 }
 .link-secondary
 {
   background-color:var(--secondary-color);
-  border-radius:0.5rem;
+  border-radius:2rem;
+}
+.link-primary:hover,
+.link-secondary:hover{
+  padding: 0.6rem 1.2rem;;
 }
 hr{
   margin:2rem 0;
@@ -91,12 +95,17 @@ color:white;
 }
 /*** section ***/
 .section{
-  padding: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  width: 70vw;
+  margin: auto;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
 }
 .section h3
 {
   text-align: center;
-  
 }
 .ow
 {
@@ -116,4 +125,8 @@ color:white;
 }
 ul{
   padding-inline-start:0;
+}
+.section-description
+{
+  padding-bottom: 1rem;
 }
